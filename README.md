@@ -1,51 +1,93 @@
-💰 Expense Tracker Web Application
-📌 Overview
+# 💰 Expense Tracker Web Application
 
-The Expense Tracker is a full-stack web application designed to help users manage and track their daily financial transactions efficiently. It provides a simple and user-friendly interface to record, update, and analyze expenses.
+## 📌 Overview
 
-🚀 Features
-➕ Add, update, and delete expenses (CRUD operations)
-📂 Categorize expenses for better tracking
-📊 Monitor spending patterns
-🔄 Real-time data updates
-🌐 Smooth frontend-backend integration using REST APIs
-🛠️ Tech Stack
+The **Expense Tracker** is a full-stack web application that helps users manage and track daily financial transactions efficiently. It provides a simple and user-friendly interface to record, update, and analyze expenses.
 
-Frontend:
-React.js (JavaScript)
+---
 
-Backend:
-Java (Spring Boot)
+## 🚀 Features
 
-Database:
-MySQL
+* ➕ Add, update, and delete expenses (CRUD operations)
+* 📂 Categorize expenses for better tracking
+* 📊 Monitor spending patterns
+* 🔄 Real-time data updates
+* 🌐 REST API-based frontend-backend integration
 
-📁 Project Structure
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+
+* React.js (JavaScript)
+
+**Backend**
+
+* Java (Spring Boot)
+
+**Database**
+
+* MySQL
+
+---
+
+## 📁 Project Structure
+
+```
 expense-tracker/
 │
 ├── expense-tracker-frontend/   # React frontend
 ├── expense-tracker-backend/    # Spring Boot backend
-├── Diagrams/                   # Project diagrams
+└── Diagrams/                   # Project diagrams
+```
 
-⚙️ Installation & Setup
-🔹 1. Clone the Repository
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```
 git clone https://github.com/aaditi72/Expense-Tracker.git
 cd Expense-Tracker
-🔹 2. Setup Frontend
+```
+
+---
+
+### 2️⃣ Setup Frontend
+
+```
 cd expense-tracker-frontend
 npm install
 npm start
-🔹 3. Setup Backend
+```
+
+---
+
+### 3️⃣ Setup Backend
+
+```
 cd expense-tracker-backend
-Open in IDE (IntelliJ / Eclipse)
-Configure application.properties with your MySQL credentials
-Run the Spring Boot application
-🔹 4. Database Setup
-Create a MySQL database
-Update credentials in application.properties
+```
 
+* Open in IDE (IntelliJ / Eclipse)
+* Configure `application.properties` with your MySQL credentials
+* Run the Spring Boot application
 
-🔮 Future Scope
-🔐 User authentication and authorization
-📊 Data visualization (charts & graphs)
-🤖 AI-based expense insights
+---
+
+### 4️⃣ Database Setup
+
+* Create a MySQL database
+* Update credentials in `application.properties`
+
+---
+
+## 🔮 Future Scope
+
+* 🔐 User authentication and authorization
+* 📊 Data visualization (charts & graphs)
+* 🤖 AI-based expense insights
+
+---
